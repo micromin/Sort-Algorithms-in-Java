@@ -10,7 +10,7 @@ public class QuickSort {
 		return this.input;
 	}
 	
-	public void quick_sort(int left, int right){ // put pivot in the right place and 
+	private void quick_sort(int left, int right){ // put pivot in the right place and 
 		//do the same for the left part and right part
 		if (left < right){
 			int pivot = partition(left, right);
